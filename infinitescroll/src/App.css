@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+}
+
+.card-grid>div {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
